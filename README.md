@@ -59,7 +59,7 @@ Pensez aussi à mettre votre prénom et votre nom en haut du fichier.
 Vous devez mettre en place une intégration continue sur ce projet. Vous devrez utiliser [Gitlab CI](https://docs.gitlab.com/ee/ci/README.html).
 
 Utilisez la branche `php-ci`.
-Votre intégration continue devra executer le script `test`.
+Votre intégration continue devra executer les commandes `test` et `lint` définies dans le `composer.json`.
 
 Vous devrez faire le nécessaire afin que l'intégration continue soit au vert.
 
